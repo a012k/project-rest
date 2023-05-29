@@ -1,0 +1,139 @@
+React
+........
+create a project: npx create-react-app appName
+
+run a project : npm start
+
+building blocks of  project
+..........................
+html
+css
+javascript(angular type script)
+
+
+Angular                                                 React
+..........                                              ........
+
+-frame work of js                                       -library of javascript
+-real DOM                                                - virtual DOM
+-(runing tym is more                                      (run tym less not rerun the entire dom if we update)
+becoz it complte rerun the
+DOM if we update the dom )
+
+
+Advantages of  React
+.......................
+1.REACT uses virtual DOM (faster )
+2.reusable components
+3.jsx (javascript  xml ie mixed up html and js )
+
+
+
+components In react
+.....................
+1.class based:::::(Is a statefull components)
+2.function based:::::(stateless components)
+
+
+to add same content it occure error so alwys create a div ie parent before h1 content. 
+or atleast use 'empty fragment <> </>'
+
+
+statefull components
+stateless components
+ 
+ state
+ ..........
+ object used to store datas inside a components in react
+
+
+ react hooks
+ ...........
+used to provide extra features (so introduce to functionbased for make it as a statefull componet)
+
+useState - react
+
+
+props(properties)
+.................
+used to share datas from  parent to child component
+
+destruturing: no need to call props only call variable in {} at function and no need props.varible in html.
+
+API CALL IN js...
+.................
+
+
+Ajax
+........
+-XmlHttp
+-fetch
+-asynch await
+
+
+first working hook of a componet.
+..................................
+useEffect ---react
+
+
+Redirection/Routing in react
+............................
+react-router-dom: - library used for Routing
+
+Browser router- wrap the main componet inside Browser router component
+
+router  : wrap the  componet inside router which need Redirection
+Routers :wrap all the router if we set more than one componet paths 
+
+link -a componet react -router -dom used for redirection
+
+useParams-hook in react-dom used to access useParams
+
+
+
+REDUX
+.........
+
+
+A------>B.......>C
+
+coupling : PARENT to child data communication via another parent called coupling 
+
+props drilling    : at the time data sharing from parent tochild if any imtermediate componet have  error occur then the data 
+                    will stack there.
+
+
+REDUX  : State management technology-- we need to reduce coupling and make all componet indepent 
+to avoid props drilling
+
+stores : dataa  are store in REDUX  so components can acces from store file
+
+
+STORE.....>component...>ACTION....>REDUCER
+
+Librarires for REDUX
+........................
+-REDUX
+-react redux
+-redux-thunk
+
+for install : npm i redux react redux  redux-thunk
+
+create store - method in redux used to create store
+
+in redux middleware used o make redux as asynchronus (actuly redux is synchrounus function inside )
+
+thunk- used to create middleware
+
+
+HTTP METHODS IN REACT
+............................
+axios -library used to call API
+
+first installl axios library
+
+
+..> useDispatch - hook used to dispatch a function in a component
+
+
+useSelector -hook used to access data from component
